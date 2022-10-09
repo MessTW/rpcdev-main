@@ -9,7 +9,7 @@ const client = new Client({
 // Ready event
 client.on('ready', async() => { 
     
-    const applicationId = '807631455744294923'; // Your Application ID
+    const applicationId = ''; // Your Application ID
     const LargeImage = await Util.getAssets(applicationId, '1'); // Large Image Name
     const SmallImage = await Util.getAssets(applicationId, '2'); // Small Image Name
 
@@ -32,7 +32,7 @@ client.on('ready', async() => {
     
     console.log(`[RPC] - Running...`);
     console.log(`[LOGGED IN] - ${client.user.tag}!`);
-    console.log(`[MADE BY] - Insane#0828`);
+    console.log(`[MADE BY] - `);
 });
 // Login to your account
-client.login('MTU2MDY2MDI0NTE1NTY3NjE2.G3ElpJ.OiD0ZBSHwo_E6BfmA6OfkpsKmsCToecCca5XT4');
+client.login(process.env.TOKEN);
