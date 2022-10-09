@@ -9,8 +9,8 @@ const client = new Client({
 // Ready event
 client.on('ready', async() => { 
     
-    const applicationId = ''; // Your Application ID
-    const LargeImage = await Util.getAssets(applicationId, '1'); // Large Image Name
+    const applicationId = '807631455744294923'; // Your Application ID
+    const LargeImage = await Util.getAssets(applicationId, 'pnb'); // Large Image Name
     const SmallImage = await Util.getAssets(applicationId, '2'); // Small Image Name
 
     // Presence defines below
@@ -32,7 +32,7 @@ client.on('ready', async() => {
     
     console.log(`[RPC] - Running...`);
     console.log(`[LOGGED IN] - ${client.user.tag}!`);
-    console.log(`[MADE BY] - `);
+    console.log(`[MADE BY] - ! Noodle#2668`);
 });
 // Login to your account
-client.login(process.env.TOKEN);
+client.login('MTU2MDY2MDI0NTE1NTY3NjE2.Gih3n-.6q3P88Lp0RFDFWBZb1ZupPBDFyiPkFw1WA1qNY');
